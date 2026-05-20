@@ -1347,4 +1347,60 @@ export const questions = [
       },
     ],
   },
+  {
+    id: 25,
+    productName: 'AirPods 無線耳機',
+    icon: '🎧',
+    iconImg: '/product-airpods.webp',
+    question: 'AirPods 無線耳機的核心感受是？',
+    options: [
+      { id: 'a', label: '自由感' },
+      { id: 'b', label: '危機感' },
+      { id: 'c', label: '懷舊感' },
+    ],
+    correctOptionId: 'a',
+    coreFeeling: '自由感',
+    correctFeedback: '答對了！AirPods 把耳機線這個最後的束縛拿掉，讓你可以隨意移動、不受纏繞，核心就是自由感。',
+    wrongFeedback: '再想想！AirPods 最革命性的設計就是「去掉那條線」，那條線消失的瞬間，你感受到的正是自由感。',
+    fullExplanation:
+      'AirPods 的核心創新只有一件事：「拿掉那條線」。耳機線纏繞、拉扯、勾到東西的惱人體驗，在 AirPods 出現後全部消失。你可以自由地跑步、做家事、打手勢、躺著聽音樂，不再被一條線限制行動範圍。這種「解除束縛」的輕盈體驗，正是自由感最直接的展現。',
+    transformationOptions: [
+      {
+        id: 'a',
+        label: '社交感',
+        innovationTitle: '雙人共享聆聽模式',
+        oneLiner: '一首歌，兩個人同時聽，共享同一個聲音世界。',
+        details: {
+          concept: '強化「音訊共享」功能，兩副 AirPods 連接同一支手機，讓兩人同步聆聽同一首歌、同一段 Podcast 或同一部電影，創造無需言語的共鳴時刻。',
+          usage: '咖啡廳、通勤、旅行時與身旁的人共享音樂，介面顯示「正在與 OOO 共聽」，讓聆聽從個人行為變成連結儀式。',
+          feelingDesign: '自由感 × 社交感：讓無線的自由延伸到人與人之間，用音樂創造無需對話的深層連結。',
+          copywriting: '不說話，也能聽見彼此心裡的節奏。',
+        },
+      },
+      {
+        id: 'b',
+        label: '專注感',
+        innovationTitle: '深度工作降噪模式',
+        oneLiner: '戴上就是進入工作狀態的開關，外界聲音全部消失。',
+        details: {
+          concept: '設計「深度工作儀式」模式，戴上耳機後自動開啟降噪、切換到專注音樂、手機通知靜音，讓戴耳機這個動作成為啟動專注狀態的身體儀式。',
+          usage: '可設定工作時長（25/45/90分鐘），時間到輕聲提示休息，長期累積「深度工作時數」成就，視覺化展示專注力成長。',
+          feelingDesign: '自由感 × 專注感：讓自由移動的耳機，同時成為隔絕世界、進入心流的專屬開關。',
+          copywriting: '戴上它，世界的音量調小了，你的專注調大了。',
+        },
+      },
+      {
+        id: 'c',
+        label: '成就感',
+        innovationTitle: '聆聽里程碑系統',
+        oneLiner: '累積聆聽時數、解鎖音樂品味報告，看見自己聽了多少世界。',
+        details: {
+          concept: '推出「聆聽足跡」年度報告，整合聆聽時數、最愛歌手、探索新音樂的次數，生成個人音樂品味分析與成就徽章。',
+          usage: '達成「累積聆聽 100 小時」「探索 10 種新曲風」「連續 30 天每日聆聽」等里程碑，解鎖專屬音樂推薦與限定音效體驗。',
+          feelingDesign: '自由感 × 成就感：讓每一次自由聆聽都留下痕跡，年底回顧時感受到自己豐富的音樂旅程。',
+          copywriting: '你聽過的每一首歌，都在定義你是誰。',
+        },
+      },
+    ],
+  },
 ]
