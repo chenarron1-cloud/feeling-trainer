@@ -106,3 +106,15 @@ export function playAnswer() {
   btnAnswerAudio.currentTime = 0
   btnAnswerAudio.play().catch(() => {})
 }
+
+// 7. Transform — 感受改造選擇 ABC 時播放的音效檔
+let btnTransformAudio = null
+export function playTransform() {
+  if (!isSoundEnabled()) return
+  if (!btnTransformAudio) {
+    btnTransformAudio = new Audio('/btn-transform.mp4')
+    btnTransformAudio.volume = 0.8
+  }
+  btnTransformAudio.currentTime = 0
+  btnTransformAudio.play().catch(() => {})
+}

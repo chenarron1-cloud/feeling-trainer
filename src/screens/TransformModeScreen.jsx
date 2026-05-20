@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { questions } from '../data/questions'
-import { playTap } from '../utils/sound'
+import { playTap, playTransform } from '../utils/sound'
 
 export default function TransformModeScreen({ onHome }) {
   const [phase, setPhase] = useState('list')
@@ -106,7 +106,7 @@ export default function TransformModeScreen({ onHome }) {
               {selectedQuestion.transformationOptions.map((opt, i) => (
                 <button
                   key={opt.id}
-                  onClick={() => { playTap(); next('result', { transform: opt }) }}
+                  onClick={() => { playTransform(); next('result', { transform: opt }) }}
                   className="w-full min-h-[64px] bg-white rounded-2xl border border-[#E2E8F0] shadow-sm px-5 text-left hover:border-[#2F8F9D] hover:shadow-md active:scale-[0.97] transition-all duration-200"
                 >
                   <div className="flex items-center gap-4 py-1">
