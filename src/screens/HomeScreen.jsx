@@ -34,6 +34,8 @@ function TransformIcon() {
 
 /* ─── Home Screen ─────────────────────────────────────── */
 
+import { playStart } from '../utils/sound'
+
 export default function HomeScreen({ onStartJudge, onStartTransform }) {
   return (
     <div className="pt-8 md:pt-12 lg:pt-16 pb-10">
@@ -100,7 +102,7 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
               </div>
             </div>
             <button
-              onClick={onStartJudge}
+              onClick={() => { playStart(); onStartJudge() }}
               className="w-full min-h-[52px] font-bold text-white text-base rounded-xl transition-transform duration-100"
               style={{
                 background: 'linear-gradient(180deg, #38C0D0 0%, #2F8F9D 55%, #1F7080 100%)',
@@ -140,7 +142,7 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
               </div>
             </div>
             <button
-              onClick={onStartTransform}
+              onClick={() => { playStart(); onStartTransform() }}
               className="w-full min-h-[52px] font-bold text-white text-base rounded-xl transition-transform duration-100"
               style={{
                 background: 'linear-gradient(180deg, #38C0D0 0%, #2F8F9D 55%, #1F7080 100%)',

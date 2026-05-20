@@ -82,3 +82,15 @@ export function playTap() {
   const t = ctx.currentTime
   tone(ctx, 880, t, 0.04, 0.032)
 }
+
+// 5. Start — 按下「開始 Go」時播放的音效檔
+let btnStartAudio = null
+export function playStart() {
+  if (!isSoundEnabled()) return
+  if (!btnStartAudio) {
+    btnStartAudio = new Audio('/btn-start.mp4')
+    btnStartAudio.volume = 0.8
+  }
+  btnStartAudio.currentTime = 0
+  btnStartAudio.play().catch(() => {})
+}
