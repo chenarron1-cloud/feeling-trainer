@@ -1018,20 +1018,20 @@ export const questions = [
     iconImg: '/product-iphone.webp',
     question: 'iPhone 智慧型手機的核心感受是？',
     options: [
-      { id: 'a', label: '尊榮感' },
-      { id: 'b', label: '便利感' },
+      { id: 'a', label: '懷舊感' },
+      { id: 'b', label: '順便感' },
       { id: 'c', label: '連結感' },
     ],
     correctOptionId: 'c',
     coreFeeling: '連結感',
     correctFeedback: '答對了！iPhone 最核心的價值是讓人隨時與他人、與世界保持連結，無論是通訊、社群還是資訊。',
-    wrongFeedback: '再想想！iPhone 雖然也很便利、也有尊榮感，但它最根本的存在意義是讓你「與世界保持連結」。',
+    wrongFeedback: '再想想！iPhone 最根本的存在意義是讓你「與世界保持連結」，而不只是懷舊或順手使用。',
     fullExplanation:
       'iPhone 的誕生從根本上改變了人與人之間的連結方式。從電話、簡訊到社群媒體、視訊通話、即時通訊，它讓每個人隨時隨地都能與家人、朋友、同事和整個世界保持連結。這種「永遠在線、永遠相連」的核心體驗，正是連結感的最終形態。',
     transformationOptions: [
       {
         id: 'a',
-        label: '尊榮感',
+        label: '懷舊感',
         innovationTitle: '限量工藝 iPhone',
         oneLiner: '每一台都是編號限定，擁有它就是擁有一件藝術品。',
         details: {
@@ -1043,7 +1043,7 @@ export const questions = [
       },
       {
         id: 'b',
-        label: '安心感',
+        label: '順便感',
         innovationTitle: '家人守護模式',
         oneLiner: '一鍵開啟，讓在乎的人知道你平安，讓你知道他們安好。',
         details: {
