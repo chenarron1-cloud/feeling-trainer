@@ -84,11 +84,8 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-4">
 
           {/* Judge Mode */}
-          <button
-            onClick={onStartJudge}
-            className="w-full bg-white rounded-2xl border border-[#E2E8F0] p-5 md:p-6 text-left shadow-sm hover:border-[#2F8F9D] hover:shadow-md active:scale-[0.97] transition-all duration-200"
-          >
-            <div className="flex items-center gap-4">
+          <div className="w-full bg-white rounded-2xl border border-[#E2E8F0] p-5 md:p-6 shadow-sm">
+            <div className="flex items-center gap-4 mb-4">
               <div className="w-14 h-14 md:w-16 md:h-16 rounded-2xl overflow-hidden flex-shrink-0">
                 <img src="/judge.png" alt="感受判斷" className="w-full h-full object-cover" />
               </div>
@@ -96,14 +93,35 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
                 <div className="flex items-center gap-2 mb-1">
                   <p className="font-bold text-[#1F2A37] text-base md:text-lg">感受判斷</p>
                   <span className="text-xs bg-[#E3F5F3] text-[#2F8F9D] font-semibold px-2 py-0.5 rounded-full">
-                    16 題闖關
+                    30秒10關
                   </span>
                 </div>
-                <p className="text-xs md:text-sm text-[#667085]">看懂產品或服務，猜核心感受</p>
+                <p className="text-xs md:text-sm text-[#667085]">挑戰30秒內答對10題才算過關</p>
               </div>
-              <span className="text-[#2F8F9D] text-xl flex-shrink-0">›</span>
             </div>
-          </button>
+            <button
+              onClick={onStartJudge}
+              className="w-full min-h-[52px] font-bold text-white text-base rounded-xl transition-transform duration-100"
+              style={{
+                background: 'linear-gradient(180deg, #38C0D0 0%, #2F8F9D 55%, #1F7080 100%)',
+                boxShadow: '0 5px 0 #155f67, 0 8px 20px rgba(47,143,157,0.35)',
+              }}
+              onMouseDown={(e) => {
+                e.currentTarget.style.boxShadow = '0 2px 0 #155f67, 0 4px 10px rgba(47,143,157,0.25)'
+                e.currentTarget.style.transform = 'translateY(3px)'
+              }}
+              onMouseUp={(e) => {
+                e.currentTarget.style.boxShadow = '0 5px 0 #155f67, 0 8px 20px rgba(47,143,157,0.35)'
+                e.currentTarget.style.transform = 'translateY(0)'
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.boxShadow = '0 5px 0 #155f67, 0 8px 20px rgba(47,143,157,0.35)'
+                e.currentTarget.style.transform = 'translateY(0)'
+              }}
+            >
+              開始 Go
+            </button>
+          </div>
 
           {/* Transform Mode */}
           <button
