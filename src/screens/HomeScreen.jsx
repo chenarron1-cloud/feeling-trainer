@@ -49,7 +49,7 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
             需求感受訓練場
           </h1>
           <p className="text-base md:text-lg font-semibold text-[#1F6F78] mt-2 md:mt-3">
-            看懂產品背後真正打動人的感受
+            看懂產品或服務背後真正打動人的感受
           </p>
           <p className="text-sm md:text-base text-[#374151] mt-3 leading-relaxed max-w-xs mx-auto">
             像玩遊戲一樣，訓練你的觀察力、判斷力與創新力。
@@ -99,7 +99,7 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
                     16 題闖關
                   </span>
                 </div>
-                <p className="text-xs md:text-sm text-[#667085]">看產品，猜核心感受</p>
+                <p className="text-xs md:text-sm text-[#667085]">看懂產品或服務，猜核心感受</p>
               </div>
               <span className="text-[#2F8F9D] text-xl flex-shrink-0">›</span>
             </div>
@@ -121,7 +121,7 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
                     自由探索
                   </span>
                 </div>
-                <p className="text-xs md:text-sm text-[#667085]">把產品變得更有感</p>
+                <p className="text-xs md:text-sm text-[#667085]">把產品或服務變得更有感</p>
               </div>
               <span className="text-[#667085] text-xl flex-shrink-0">›</span>
             </div>
