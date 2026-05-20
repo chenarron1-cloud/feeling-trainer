@@ -103,12 +103,24 @@ export default function JudgeModeScreen({ onFinish, onHome }) {
 
         {/* Product card */}
         <div className="bg-white rounded-3xl border border-[#E2E8F0] shadow-sm p-7 md:p-9 mb-4 md:mb-5 text-center">
-          <div className="w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-[#E3F5F3] border border-[#2F8F9D]/10 flex items-center justify-center mx-auto mb-4 text-4xl md:text-5xl">
-            {question.icon}
+          <div className="w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-[#E3F5F3] border border-[#2F8F9D]/10 flex items-center justify-center mx-auto mb-4 text-4xl md:text-5xl overflow-hidden">
+            {question.iconImg
+              ? <img src={question.iconImg} alt={question.productName} className="w-full h-full object-cover" />
+              : question.icon}
           </div>
           <h2 className="text-xl md:text-2xl font-bold text-[#1F2A37] mb-1 md:mb-2">
             {question.productName}
           </h2>
+          {question.learnMoreUrl && (
+            <a
+              href={question.learnMoreUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-xs font-semibold text-[#2F8F9D] underline underline-offset-2 hover:text-[#1F6F78] transition-colors mb-2"
+            >
+              點擊了解更多
+            </a>
+          )}
           <p className="text-sm md:text-base text-[#667085] font-medium">{question.question}</p>
         </div>
 

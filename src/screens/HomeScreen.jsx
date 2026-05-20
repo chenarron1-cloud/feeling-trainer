@@ -1,38 +1,5 @@
 /* ─── SVG Illustrations ──────────────────────────────── */
 
-function HeroIllustration() {
-  return (
-    <svg viewBox="0 0 260 130" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full">
-      <g transform="rotate(-10 75 65)">
-        <rect x="14" y="28" width="104" height="70" rx="10" fill="#D1EDE9" />
-        <rect x="25" y="43" width="52" height="5" rx="2.5" fill="#2F8F9D" opacity="0.4" />
-        <rect x="25" y="53" width="36" height="4" rx="2" fill="#2F8F9D" opacity="0.22" />
-        <rect x="25" y="61" width="55" height="3" rx="1.5" fill="#2F8F9D" opacity="0.13" />
-      </g>
-      <g transform="rotate(9 185 62)">
-        <rect x="142" y="22" width="100" height="68" rx="10" fill="#C8D9F2" opacity="0.6" />
-        <rect x="153" y="36" width="52" height="5" rx="2.5" fill="#2D3E63" opacity="0.28" />
-        <rect x="153" y="46" width="38" height="4" rx="2" fill="#2D3E63" opacity="0.17" />
-      </g>
-      <rect x="80" y="20" width="100" height="74" rx="10" fill="white" />
-      <rect x="80" y="20" width="100" height="74" rx="10" stroke="#E2E8F0" strokeWidth="1.5" />
-      <circle cx="102" cy="40" r="12" fill="#E3F5F3" />
-      <circle cx="102" cy="40" r="7" stroke="#2F8F9D" strokeWidth="1.5" fill="none" />
-      <circle cx="102" cy="40" r="3" fill="#2F8F9D" />
-      <rect x="119" y="33" width="48" height="5" rx="2.5" fill="#1F2A37" opacity="0.14" />
-      <rect x="119" y="42" width="34" height="3.5" rx="1.75" fill="#667085" opacity="0.2" />
-      <rect x="90" y="61" width="40" height="18" rx="9" fill="#E3F5F3" />
-      <rect x="93" y="67" width="34" height="5" rx="2.5" fill="#2F8F9D" opacity="0.5" />
-      <rect x="135" y="61" width="36" height="18" rx="9" fill="#EEF3F7" />
-      <rect x="138" y="67" width="30" height="5" rx="2.5" fill="#667085" opacity="0.3" />
-      <circle cx="236" cy="26" r="4" fill="#2F8F9D" opacity="0.38" />
-      <circle cx="226" cy="14" r="2.5" fill="#2F8F9D" opacity="0.28" />
-      <circle cx="248" cy="14" r="1.5" fill="#2D3E63" opacity="0.22" />
-      <circle cx="20" cy="118" r="3.5" fill="#2F8F9D" opacity="0.22" />
-      <circle cx="8" cy="108" r="2" fill="#2D3E63" opacity="0.18" />
-    </svg>
-  )
-}
 
 function JudgeIcon() {
   return (
@@ -73,25 +40,42 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
 
       {/* Hero Card — centered, max-w-2xl */}
       <div className="max-w-2xl mx-auto bg-white rounded-3xl border border-[#E2E8F0] shadow-sm p-6 md:p-8 lg:p-10 mb-5 md:mb-6">
-        {/* Illustration — taller on desktop */}
-        <div className="mb-5 md:mb-6 lg:max-w-sm lg:mx-auto">
-          <HeroIllustration />
+        {/* Hero image */}
+        <div className="mb-5 md:mb-7 max-w-xs md:max-w-sm mx-auto">
+          <img src="/hero.png" alt="需求感受訓練場" className="w-full rounded-2xl shadow-sm" />
         </div>
         <div className="text-center">
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#2D3E63] leading-tight">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1A2540] leading-tight">
             需求感受訓練場
           </h1>
-          <p className="text-sm md:text-base font-semibold text-[#2F8F9D] mt-2 md:mt-3">
+          <p className="text-base md:text-lg font-semibold text-[#1F6F78] mt-2 md:mt-3">
             看懂產品背後真正打動人的感受
           </p>
-          <p className="text-xs md:text-sm text-[#667085] mt-3 leading-relaxed max-w-xs mx-auto">
+          <p className="text-sm md:text-base text-[#374151] mt-3 leading-relaxed max-w-xs mx-auto">
             像玩遊戲一樣，訓練你的觀察力、判斷力與創新力。
           </p>
         </div>
         <div className="mt-5 md:mt-6 pt-4 border-t border-[#E2E8F0] text-center">
-          <p className="text-xs text-[#667085] opacity-60 tracking-wide">
-            創新先生 陳建銘｜靈感製造機法則
-          </p>
+          <p className="text-xs text-[#9CA3AF] mb-2 tracking-wide">點擊了解更多</p>
+          <div className="flex items-center justify-center gap-2 flex-wrap">
+            <a
+              href="https://www.innovators.tw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-semibold text-[#2F8F9D] underline underline-offset-2 hover:text-[#1F6F78] transition-colors"
+            >
+              創新先生 陳建銘
+            </a>
+            <span className="text-[#D1D5DB]">｜</span>
+            <a
+              href="https://www.innovators.tw/blog/problem-analysis-solving-innovation"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-semibold text-[#2F8F9D] underline underline-offset-2 hover:text-[#1F6F78] transition-colors"
+            >
+              靈感製造機法則
+            </a>
+          </div>
         </div>
       </div>
 
@@ -105,14 +89,14 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
             className="w-full bg-white rounded-2xl border border-[#E2E8F0] p-5 md:p-6 text-left shadow-sm hover:border-[#2F8F9D] hover:shadow-md active:scale-[0.97] transition-all duration-200"
           >
             <div className="flex items-center gap-4">
-              <div className="w-14 h-14 md:w-16 md:h-16 rounded-2xl bg-[#E3F5F3] flex items-center justify-center flex-shrink-0 p-2.5">
-                <JudgeIcon />
+              <div className="w-14 h-14 md:w-16 md:h-16 rounded-2xl overflow-hidden flex-shrink-0">
+                <img src="/judge.png" alt="感受判斷" className="w-full h-full object-cover" />
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-1">
                   <p className="font-bold text-[#1F2A37] text-base md:text-lg">感受判斷</p>
                   <span className="text-xs bg-[#E3F5F3] text-[#2F8F9D] font-semibold px-2 py-0.5 rounded-full">
-                    6 題闖關
+                    15 題闖關
                   </span>
                 </div>
                 <p className="text-xs md:text-sm text-[#667085]">看產品，猜核心感受</p>
@@ -127,11 +111,8 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
             className="w-full bg-white rounded-2xl border border-[#E2E8F0] p-5 md:p-6 text-left shadow-sm hover:border-[#2D3E63]/30 hover:shadow-md active:scale-[0.97] transition-all duration-200"
           >
             <div className="flex items-center gap-4">
-              <div
-                className="w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center flex-shrink-0 p-2.5"
-                style={{ background: 'linear-gradient(135deg, #EEF3F7 0%, #E3F5F3 100%)' }}
-              >
-                <TransformIcon />
+              <div className="w-14 h-14 md:w-16 md:h-16 rounded-2xl overflow-hidden flex-shrink-0">
+                <img src="/transform.png" alt="感受改造" className="w-full h-full object-cover" />
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-1">

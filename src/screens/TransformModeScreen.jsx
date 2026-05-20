@@ -63,8 +63,10 @@ export default function TransformModeScreen({ onHome }) {
                   className="w-full bg-white rounded-2xl border border-[#E2E8F0] shadow-sm p-4 md:p-5 text-left hover:border-[#2F8F9D] hover:shadow-md active:scale-[0.97] transition-all duration-200"
                 >
                   <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 md:w-14 md:h-14 rounded-xl bg-[#E3F5F3] border border-[#2F8F9D]/10 flex items-center justify-center text-2xl md:text-3xl flex-shrink-0">
-                      {q.icon}
+                    <div className="w-12 h-12 md:w-14 md:h-14 rounded-xl bg-[#E3F5F3] border border-[#2F8F9D]/10 flex items-center justify-center text-2xl md:text-3xl flex-shrink-0 overflow-hidden">
+                      {q.iconImg
+                        ? <img src={q.iconImg} alt={q.productName} className="w-full h-full object-cover" />
+                        : q.icon}
                     </div>
                     <div className="flex-1 min-w-0">
                       <p className="font-bold text-[#1F2A37] text-sm md:text-base">{q.productName}</p>
@@ -84,8 +86,10 @@ export default function TransformModeScreen({ onHome }) {
         {phase === 'pick' && selectedQuestion && (
           <div>
             <div className="bg-white rounded-3xl border border-[#E2E8F0] shadow-sm p-6 md:p-8 mb-6 text-center">
-              <div className="w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-[#E3F5F3] border border-[#2F8F9D]/10 flex items-center justify-center text-4xl md:text-5xl mx-auto mb-4">
-                {selectedQuestion.icon}
+              <div className="w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-[#E3F5F3] border border-[#2F8F9D]/10 flex items-center justify-center text-4xl md:text-5xl mx-auto mb-4 overflow-hidden">
+                {selectedQuestion.iconImg
+                  ? <img src={selectedQuestion.iconImg} alt={selectedQuestion.productName} className="w-full h-full object-cover" />
+                  : selectedQuestion.icon}
               </div>
               <h2 className="font-bold text-[#1F2A37] text-lg md:text-xl mb-2">
                 {selectedQuestion.productName}
