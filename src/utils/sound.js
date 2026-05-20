@@ -58,14 +58,16 @@ export function playWrong() {
   btnWrongAudio.play().catch(() => {})
 }
 
-// 3. Complete — three ascending tones: C5 → E5 → G5 (小慶祝感)
+// 3. Complete — 恭喜過關音效檔
+let completeAudio = null
 export function playComplete() {
   if (!isSoundEnabled()) return
-  const ctx = getCtx()
-  const t = ctx.currentTime
-  tone(ctx, 523, t, 0.13, 0.10)         // C5
-  tone(ctx, 659, t + 0.14, 0.13, 0.12)  // E5
-  tone(ctx, 784, t + 0.28, 0.30, 0.14)  // G5
+  if (!completeAudio) {
+    completeAudio = new Audio('/sound-complete.mp4')
+    completeAudio.volume = 0.9
+  }
+  completeAudio.currentTime = 0
+  completeAudio.play().catch(() => {})
 }
 
 // 4. Tap — very subtle click for option selection (非常小聲)
