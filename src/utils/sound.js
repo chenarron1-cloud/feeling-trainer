@@ -94,3 +94,15 @@ export function playStart() {
   btnStartAudio.currentTime = 0
   btnStartAudio.play().catch(() => {})
 }
+
+// 6. Answer — 選擇答題選項時播放的音效檔
+let btnAnswerAudio = null
+export function playAnswer() {
+  if (!isSoundEnabled()) return
+  if (!btnAnswerAudio) {
+    btnAnswerAudio = new Audio('/btn-answer.mp4')
+    btnAnswerAudio.volume = 0.8
+  }
+  btnAnswerAudio.currentTime = 0
+  btnAnswerAudio.play().catch(() => {})
+}

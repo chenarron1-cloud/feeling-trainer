@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { questions } from '../data/questions'
-import { playCorrect, playWrong, playComplete } from '../utils/sound'
+import { playCorrect, playWrong, playComplete, playAnswer } from '../utils/sound'
 
 const TOTAL_TIME = 30
 const PASS_SCORE = 10
@@ -89,6 +89,7 @@ export default function JudgeModeScreen({ onHome }) {
   const handleSelect = (optionId) => {
     if (advancingRef.current) return
     if (selected === question.correctOptionId) return
+    playAnswer()
     setSelected(optionId)
 
     if (optionId === question.correctOptionId) {
