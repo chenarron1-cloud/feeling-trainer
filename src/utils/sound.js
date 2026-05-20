@@ -46,23 +46,16 @@ export function playCorrect() {
   tone(ctx, 784, t + 0.16, 0.22, 0.14) // G5
 }
 
-// 2. Wrong — soft descending thud (柔和低音提醒，不刺耳)
+// 2. Wrong — 答錯音效檔
+let btnWrongAudio = null
 export function playWrong() {
   if (!isSoundEnabled()) return
-  const ctx = getCtx()
-  const t = ctx.currentTime
-  const osc = ctx.createOscillator()
-  const gain = ctx.createGain()
-  osc.connect(gain)
-  gain.connect(ctx.destination)
-  osc.type = 'sine'
-  osc.frequency.setValueAtTime(270, t)
-  osc.frequency.exponentialRampToValueAtTime(140, t + 0.22)
-  gain.gain.setValueAtTime(0, t)
-  gain.gain.linearRampToValueAtTime(0.10, t + 0.01)
-  gain.gain.exponentialRampToValueAtTime(0.001, t + 0.28)
-  osc.start(t)
-  osc.stop(t + 0.30)
+  if (!btnWrongAudio) {
+    btnWrongAudio = new Audio('/btn-wrong.mp4')
+    btnWrongAudio.volume = 0.8
+  }
+  btnWrongAudio.currentTime = 0
+  btnWrongAudio.play().catch(() => {})
 }
 
 // 3. Complete — three ascending tones: C5 → E5 → G5 (小慶祝感)
