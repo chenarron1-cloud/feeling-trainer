@@ -10,7 +10,7 @@ function SoundToggle({ enabled, onToggle }) {
     <button
       onClick={onToggle}
       title={enabled ? '關閉音效' : '開啟音效'}
-      className="fixed top-3 right-3 z-50 w-9 h-9 rounded-full bg-white border border-[#E2E8F0] shadow-sm flex items-center justify-center text-[#667085] hover:text-[#2F8F9D] hover:border-[#2F8F9D] transition-colors"
+      className="fixed bottom-5 right-4 z-50 w-9 h-9 rounded-full bg-white border border-[#E2E8F0] shadow-md flex items-center justify-center text-[#667085] hover:text-[#2F8F9D] hover:border-[#2F8F9D] transition-colors"
     >
       {enabled ? (
         <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-4 h-4">
