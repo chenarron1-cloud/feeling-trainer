@@ -46,6 +46,16 @@ export default function JudgeModeScreen({ onHome }) {
     bgmRef.current.play().catch(() => {})
   }
 
+  // 進入畫面時預先載入所有題目圖片到瀏覽器快取
+  useEffect(() => {
+    questions.forEach((q) => {
+      if (q.iconImg) {
+        const img = new Image()
+        img.src = q.iconImg
+      }
+    })
+  }, [])
+
   // 離開時停止音樂
   useEffect(() => {
     return () => stopBgm()

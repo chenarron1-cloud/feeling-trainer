@@ -1,9 +1,19 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { questions } from '../data/questions'
 import { playTap, playTransform } from '../utils/sound'
 
 export default function TransformModeScreen({ onHome }) {
   const [phase, setPhase] = useState('list')
+
+  // 進入畫面時預先載入所有題目圖片到瀏覽器快取
+  useEffect(() => {
+    questions.forEach((q) => {
+      if (q.iconImg) {
+        const img = new Image()
+        img.src = q.iconImg
+      }
+    })
+  }, [])
   const [selectedQuestion, setSelectedQuestion] = useState(null)
   const [selectedTransform, setSelectedTransform] = useState(null)
   const [showDetails, setShowDetails] = useState(false)
