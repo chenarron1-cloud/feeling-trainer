@@ -1403,4 +1403,60 @@ export const questions = [
       },
     ],
   },
+  {
+    id: 26,
+    productName: 'AirTag 防丟追蹤器',
+    icon: '🏷️',
+    iconImg: '/product-airtag.webp',
+    question: 'AirTag 防丟追蹤器的核心感受是？',
+    options: [
+      { id: 'a', label: '炫耀感' },
+      { id: 'b', label: '療癒感' },
+      { id: 'c', label: '找回感' },
+    ],
+    correctOptionId: 'c',
+    coreFeeling: '找回感',
+    correctFeedback: '答對了！AirTag 解決的是「東西不見了、找不回來」的焦慮，讓你能夠追蹤並找回重要物品，核心就是找回感。',
+    wrongFeedback: '再想想！AirTag 的存在意義只有一個：當你的東西不見了，它能幫你找回來。這種「失而復得」的核心體驗，就是找回感。',
+    fullExplanation:
+      'AirTag 的設計只解決一個問題：「我的東西在哪裡？」鑰匙、錢包、行李箱，這些東西一旦不見，帶來的焦慮感是巨大的。AirTag 透過 Apple 的尋找網路，讓使用者能即時追蹤物品位置，甚至在它靠近時發出聲音引導你找到它。這種「失而復得」的核心體驗，正是找回感最純粹的設計。',
+    transformationOptions: [
+      {
+        id: 'a',
+        label: '安心感',
+        innovationTitle: '家人守護標籤',
+        oneLiner: '貼在孩子書包上，讓父母隨時知道孩子在哪，不再擔心。',
+        details: {
+          concept: '推出「家人守護版」AirTag，專為親子設計，家長可在 APP 設定安全區域，孩子離開設定範圍時立即推播通知。',
+          usage: '搭配可愛卡通造型標籤貼在書包或外套，平時靜默運作，異常時主動通報，讓接送變得更安心。',
+          feelingDesign: '找回感 × 安心感：從「找到遺失的物品」升級為「守護最重要的人」，讓科技成為家人之間的隱形守護者。',
+          copywriting: '他在學校，你在辦公室，但你們之間的距離從未遠過。',
+        },
+      },
+      {
+        id: 'b',
+        label: '掌控感',
+        innovationTitle: '資產全景追蹤系統',
+        oneLiner: '一張地圖，看見你所有重要物品的即時位置。',
+        details: {
+          concept: '推出「資產儀表板」功能，使用者可為所有貼有標籤的物品命名分類（交通工具、行李、電子設備），在統一介面查看所有物品的即時狀態與位置歷史。',
+          usage: '出門前一鍵確認「所有重要物品都在範圍內」，旅行時實時監控行李位置，讓每一件重要的東西都在掌握之中。',
+          feelingDesign: '找回感 × 掌控感：不只是找到失物，而是讓你對所有重要資產都有完整的掌握感，從根本消除遺失的焦慮。',
+          copywriting: '你的每一件重要的東西，都在地圖上等你。',
+        },
+      },
+      {
+        id: 'c',
+        label: '趣味感',
+        innovationTitle: '尋寶遊戲標籤',
+        oneLiner: '把 AirTag 藏在城市各處，讓朋友用手機導航尋寶。',
+        details: {
+          concept: '推出「城市尋寶」功能，使用者可設定 AirTag 為「寶藏模式」，邀請朋友透過 APP 導航尋找，找到後解鎖驚喜訊息或兌換獎勵。',
+          usage: '適合生日驚喜、團隊活動、城市探索，發起者設定線索與終點獎勵，參與者用精準導航一步步逼近目標。',
+          feelingDesign: '找回感 × 趣味感：把追蹤定位的技術，轉化成一場充滿驚喜的真實世界尋寶遊戲。',
+          copywriting: '它在某個地方等你，你有勇氣去找嗎？',
+        },
+      },
+    ],
+  },
 ]
