@@ -13,13 +13,7 @@ function getCtx() {
 }
 
 export function isSoundEnabled() {
-  return localStorage.getItem('soundEnabled') !== 'false'
-}
-
-export function toggleSound() {
-  const next = !isSoundEnabled()
-  localStorage.setItem('soundEnabled', next ? 'true' : 'false')
-  return next
+  return true
 }
 
 // Generic tone helper: sine oscillator with attack + exponential decay
