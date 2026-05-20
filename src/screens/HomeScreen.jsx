@@ -96,7 +96,7 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
                 <div className="flex items-center gap-2 mb-1">
                   <p className="font-bold text-[#1F2A37] text-base md:text-lg">感受判斷</p>
                   <span className="text-xs bg-[#E3F5F3] text-[#2F8F9D] font-semibold px-2 py-0.5 rounded-full">
-                    15 題闖關
+                    16 題闖關
                   </span>
                 </div>
                 <p className="text-xs md:text-sm text-[#667085]">看產品，猜核心感受</p>
