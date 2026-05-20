@@ -1179,4 +1179,60 @@ export const questions = [
       },
     ],
   },
+  {
+    id: 22,
+    productName: 'Google Maps 導航',
+    icon: '🗺️',
+    iconImg: '/product-googlemaps.webp',
+    question: 'Google Maps 導航的核心感受是？',
+    options: [
+      { id: 'a', label: '療癒感' },
+      { id: 'b', label: '尊榮感' },
+      { id: 'c', label: '方向感' },
+    ],
+    correctOptionId: 'c',
+    coreFeeling: '方向感',
+    correctFeedback: '答對了！Google Maps 最核心的價值是讓你在任何陌生地方都知道自己在哪、要往哪走，消除迷失的焦慮，給你清楚的方向感。',
+    wrongFeedback: '再想想！Google Maps 最根本的存在意義是讓你永遠不會迷路，給你一個清楚的方向，這正是方向感。',
+    fullExplanation:
+      'Google Maps 的核心設計是「消除迷失感、給予方向感」。在它出現之前，到陌生地方需要問路、看路牌、擔心走錯。Google Maps 讓每個人隨時都能知道自己的位置、前往目的地的最佳路線、還需要多少時間。這種「永遠知道自己在哪、要往哪去」的確定感，正是方向感的核心。',
+    transformationOptions: [
+      {
+        id: 'a',
+        label: '療癒感',
+        innovationTitle: '漫步導航模式',
+        oneLiner: '不設目的地，讓地圖帶你發現城市裡你從未注意的角落。',
+        details: {
+          concept: '推出「漫步模式」，使用者設定時間而非目的地，地圖根據你的步行速度與偏好（公園、老街、咖啡館），隨機規劃一條充滿驚喜的散步路線。',
+          usage: '行走過程中地圖會即時介紹周邊隱藏景點，結束後生成「今日漫步故事」，記錄你走過的每個有趣角落。',
+          feelingDesign: '方向感 × 療癒感：把「知道去哪」轉化成「享受不知道去哪」，讓導航成為一種放鬆的城市療癒體驗。',
+          copywriting: '今天不趕時間，就讓地圖帶你走。',
+        },
+      },
+      {
+        id: 'b',
+        label: '成就感',
+        innovationTitle: '城市探索集章系統',
+        oneLiner: '走過每個區域就解鎖一枚地圖章，集滿全城才算真正認識這座城市。',
+        details: {
+          concept: '在地圖上加入「城市探索章」系統，使用者實際到訪某個區域或地標後自動解鎖對應章節，累積章數可換取在地商家優惠。',
+          usage: '挑戰「城市全圖鑑」成就，完成後獲得「XX 城市達人」認證，並生成個人專屬的城市探索足跡地圖。',
+          feelingDesign: '方向感 × 成就感：讓每一次導航都成為一段值得記錄的城市旅程，把移動變成探索的動力。',
+          copywriting: '你走過的每一條路，都在完成一幅屬於你的城市地圖。',
+        },
+      },
+      {
+        id: 'c',
+        label: '社交感',
+        innovationTitle: '朋友同行地圖',
+        oneLiner: '多人共享即時位置，一起導航到同一個地方，沒有人會走散。',
+        details: {
+          concept: '推出「朋友同行模式」，多人可加入同一趟旅程，地圖即時顯示所有人的位置與預計到達時間，自動選出讓大家都方便的集合點。',
+          usage: '旅行或聚會時發起「同行邀請」，成員接受後各自導航，地圖顯示誰快到、誰還在路上，減少等待的不確定感。',
+          feelingDesign: '方向感 × 社交感：讓找路這件事從個人行為變成集體體驗，一起抵達比單獨到達更有意義。',
+          copywriting: '你不是一個人在路上，大家都在趕來。',
+        },
+      },
+    ],
+  },
 ]
