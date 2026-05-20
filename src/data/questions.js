@@ -1067,4 +1067,60 @@ export const questions = [
       },
     ],
   },
+  {
+    id: 20,
+    productName: 'foodpanda 外送',
+    icon: '🛵',
+    iconImg: '/product-foodpanda.webp',
+    question: 'foodpanda 外送服務的核心感受是？',
+    options: [
+      { id: 'a', label: '便利感' },
+      { id: 'b', label: '即時感' },
+      { id: 'c', label: '掌控感' },
+    ],
+    correctOptionId: 'b',
+    coreFeeling: '即時感',
+    correctFeedback: '答對了！foodpanda 最核心的價值是「想吃什麼，馬上就能送到你面前」，即時滿足欲望的感受是它的靈魂。',
+    wrongFeedback: '再想想！foodpanda 跟一般外帶最大的差別，不只是方便，而是那種「現在想吃、現在就能有」的即時感。',
+    fullExplanation:
+      'foodpanda 的核心設計圍繞著「即時」——即時下單、即時配對外送員、即時追蹤位置、即時送達。它把「我現在想吃某樣東西」這個念頭，轉化成30分鐘內就能實現的體驗。這種需求與滿足之間幾乎零等待的設計，正是即時感的極致展現。',
+    transformationOptions: [
+      {
+        id: 'a',
+        label: '驚喜感',
+        innovationTitle: '盲盒美食外送',
+        oneLiner: '告訴我你的口味偏好，讓演算法幫你選今天吃什麼——打開才知道。',
+        details: {
+          concept: '推出「今日盲盒外送」服務，使用者設定口味偏好（辣度、葷素、料理類型），系統隨機搭配當日限定組合，下單後才揭曉是哪家餐廳哪道菜。',
+          usage: '適合選擇困難症族群，每次盲盒都有「評分揭曉」環節，累積評分可優化下次推薦，形成個人化驚喜體驗。',
+          feelingDesign: '即時感 × 驚喜感：把等待外送的過程，升級成一場充滿期待的開箱體驗。',
+          copywriting: '今天吃什麼？讓命運決定。',
+        },
+      },
+      {
+        id: 'b',
+        label: '社交感',
+        innovationTitle: '揪團外送計畫',
+        oneLiner: '同一棟樓的鄰居一起訂，湊單免運還能認識新朋友。',
+        details: {
+          concept: '推出「鄰里揪團」功能，同一社區或辦公樓的使用者可以發起揪團訂單，湊滿人數享免運與團購優惠，送達時可選擇「共同取餐點」促進鄰里互動。',
+          usage: '揪團發起者設定截止時間與最低人數，達標後自動成立訂單，系統通知所有參與者取餐時間。',
+          feelingDesign: '即時感 × 社交感：讓一個人訂外送的孤獨時刻，變成與周遭人產生連結的機會。',
+          copywriting: '同一棟樓，今晚一起吃。',
+        },
+      },
+      {
+        id: 'c',
+        label: '成就感',
+        innovationTitle: '美食探索集章計畫',
+        oneLiner: '每嘗試一家新餐廳就集一枚章，解鎖城市美食探索家稱號。',
+        details: {
+          concept: '推出「城市美食圖鑑」系統，每次訂購新餐廳自動解鎖該店章節，集滿特定區域的餐廳可獲得「XX區美食達人」認證與專屬優惠。',
+          usage: '圖鑑可分享至社群，朋友可以看到你的美食探索進度，形成互相激勵的收集文化。',
+          feelingDesign: '即時感 × 成就感：讓每一次點餐不只是填飽肚子，而是在完成一段屬於自己的城市美食旅程。',
+          copywriting: '你訂的每一餐，都是城市探索的一步。',
+        },
+      },
+    ],
+  },
 ]
