@@ -42,7 +42,7 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
       <div className="max-w-2xl mx-auto bg-white rounded-3xl border border-[#E2E8F0] shadow-sm p-6 md:p-8 lg:p-10 mb-5 md:mb-6">
         {/* Hero image */}
         <div className="mb-5 md:mb-7 max-w-xs md:max-w-sm mx-auto">
-          <img src="/hero.png" alt="需求感受訓練場" className="w-full rounded-2xl shadow-sm" />
+          <img src="/hero.webp" alt="需求感受訓練場" className="w-full rounded-2xl shadow-sm" />
         </div>
         <div className="text-center">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1A2540] leading-tight">
@@ -87,7 +87,7 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
           <div className="w-full bg-white rounded-2xl border border-[#E2E8F0] p-5 md:p-6 shadow-sm">
             <div className="flex items-center gap-4 mb-4">
               <div className="w-14 h-14 md:w-16 md:h-16 rounded-2xl overflow-hidden flex-shrink-0">
-                <img src="/judge.png" alt="感受判斷" className="w-full h-full object-cover" />
+                <img src="/judge.webp" alt="感受判斷" className="w-full h-full object-cover" />
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-1">
@@ -130,7 +130,7 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
           >
             <div className="flex items-center gap-4">
               <div className="w-14 h-14 md:w-16 md:h-16 rounded-2xl overflow-hidden flex-shrink-0">
-                <img src="/transform.png" alt="感受改造" className="w-full h-full object-cover" />
+                <img src="/transform.webp" alt="感受改造" className="w-full h-full object-cover" />
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-1">

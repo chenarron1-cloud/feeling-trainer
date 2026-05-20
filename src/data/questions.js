@@ -3,7 +3,7 @@ export const questions = [
     id: 1,
     productName: '便利貼',
     icon: '📝',
-    iconImg: '/product-sticky.png',
+    iconImg: '/product-sticky.webp',
     question: '便利貼的核心感受是？',
     options: [
       { id: 'a', label: '療癒感' },
@@ -58,7 +58,7 @@ export const questions = [
   {
     id: 2,
     productName: '會跑的鬧鐘',
-    iconImg: '/product-clock.jpg',
+    iconImg: '/product-clock.webp',
     learnMoreUrl: 'https://www.innovators.tw/running-alarm-clock',
     icon: '⏰',
     question: '會跑的鬧鐘的核心感受是？',
@@ -115,7 +115,7 @@ export const questions = [
   {
     id: 3,
     productName: '伸縮摺疊電蚊拍',
-    iconImg: '/product-swatter.jpg',
+    iconImg: '/product-swatter.webp',
     learnMoreUrl: 'https://www.innovators.tw/telescopic-folding-electric-mosquito-swatter',
     icon: '🦟',
     question: '伸縮摺疊電蚊拍的核心感受是？',
@@ -172,7 +172,7 @@ export const questions = [
   {
     id: 4,
     productName: '外送 APP 即時位置',
-    iconImg: '/product-delivery.png',
+    iconImg: '/product-delivery.webp',
     icon: '🛵',
     question: '外送 APP 顯示外送員位置的核心感受是？',
     options: [
@@ -228,7 +228,7 @@ export const questions = [
   {
     id: 5,
     productName: '銀行 APP 交易通知',
-    iconImg: '/product-bank.png',
+    iconImg: '/product-bank.webp',
     icon: '🏦',
     question: '銀行 APP 交易通知的核心感受是？',
     options: [
@@ -284,7 +284,7 @@ export const questions = [
   {
     id: 6,
     productName: '課程進度條',
-    iconImg: '/product-progress.png',
+    iconImg: '/product-progress.webp',
     icon: '📊',
     question: '課程進度條的核心感受是？',
     options: [
@@ -341,7 +341,7 @@ export const questions = [
     id: 7,
     productName: '鳥博士教育桌遊',
     icon: '🐦',
-    iconImg: '/product-drbird.png',
+    iconImg: '/product-drbird.webp',
     learnMoreUrl: 'https://www.innovators.tw/dr-bird-educational-board-game',
     question: '鳥博士教育桌遊的核心感受是？',
     options: [
@@ -398,7 +398,7 @@ export const questions = [
     id: 8,
     productName: '創新的秘密',
     icon: '🃏',
-    iconImg: '/product-innovation.png',
+    iconImg: '/product-innovation.webp',
     learnMoreUrl: 'https://www.innovators.tw/innovative-thinking-tools',
     question: '「創新的秘密」卡牌的核心感受是？',
     options: [
@@ -455,7 +455,7 @@ export const questions = [
     id: 9,
     productName: '拍立得相機',
     icon: '📷',
-    iconImg: '/product-polaroid.png',
+    iconImg: '/product-polaroid.webp',
     question: '拍立得相機的核心感受是？',
     options: [
       { id: 'a', label: '即時感' },
@@ -511,7 +511,7 @@ export const questions = [
     id: 10,
     productName: '迴轉壽司',
     icon: '🍣',
-    iconImg: '/product-sushi.png',
+    iconImg: '/product-sushi.webp',
     question: '迴轉壽司的核心感受是？',
     options: [
       { id: 'a', label: '驚喜感' },
@@ -567,7 +567,7 @@ export const questions = [
     id: 11,
     productName: '黃色小鴨（放大版）',
     icon: '🦆',
-    iconImg: '/product-duck.png',
+    iconImg: '/product-duck.webp',
     question: '巨型黃色小鴨裝置藝術的核心感受是？',
     options: [
       { id: 'a', label: '震撼感' },
@@ -623,7 +623,7 @@ export const questions = [
     id: 12,
     productName: '魔術方塊',
     icon: '🟥',
-    iconImg: '/product-rubik.png',
+    iconImg: '/product-rubik.webp',
     question: '魔術方塊的核心感受是？',
     options: [
       { id: 'a', label: '挑戰感' },
@@ -679,7 +679,7 @@ export const questions = [
     id: 13,
     productName: '填字遊戲',
     icon: '📝',
-    iconImg: '/product-crossword.png',
+    iconImg: '/product-crossword.webp',
     question: '填字遊戲的核心感受是？',
     options: [
       { id: 'a', label: '競爭感' },
@@ -735,7 +735,7 @@ export const questions = [
     id: 14,
     productName: '可口可樂',
     icon: '🥤',
-    iconImg: '/product-coke.png',
+    iconImg: '/product-coke.webp',
     question: '可口可樂的核心感受是？',
     options: [
       { id: 'a', label: '懷舊感' },
@@ -791,7 +791,7 @@ export const questions = [
     id: 15,
     productName: '免削鉛筆',
     icon: '✏️',
-    iconImg: '/product-pencil.png',
+    iconImg: '/product-pencil.webp',
     question: '免削鉛筆的核心感受是？',
     options: [
       { id: 'a', label: '便利感' },
@@ -847,7 +847,7 @@ export const questions = [
     id: 16,
     productName: '好神拖拖把',
     icon: '🧹',
-    iconImg: '/product-mop.png',
+    iconImg: '/product-mop.webp',
     question: '好神拖拖把的核心感受是？',
     options: [
       { id: 'a', label: '清潔感' },
