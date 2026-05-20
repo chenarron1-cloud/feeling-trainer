@@ -1074,20 +1074,20 @@ export const questions = [
     iconImg: '/product-foodpanda.webp',
     question: 'foodpanda 外送服務的核心感受是？',
     options: [
-      { id: 'a', label: '便利感' },
+      { id: 'a', label: '健康感' },
       { id: 'b', label: '即時感' },
-      { id: 'c', label: '掌控感' },
+      { id: 'c', label: '激勵感' },
     ],
     correctOptionId: 'b',
     coreFeeling: '即時感',
     correctFeedback: '答對了！foodpanda 最核心的價值是「想吃什麼，馬上就能送到你面前」，即時滿足欲望的感受是它的靈魂。',
-    wrongFeedback: '再想想！foodpanda 跟一般外帶最大的差別，不只是方便，而是那種「現在想吃、現在就能有」的即時感。',
+    wrongFeedback: '再想想！foodpanda 最核心的設計是那種「現在想吃、現在就能有」的即時感，而不是健康或激勵。',
     fullExplanation:
       'foodpanda 的核心設計圍繞著「即時」——即時下單、即時配對外送員、即時追蹤位置、即時送達。它把「我現在想吃某樣東西」這個念頭，轉化成30分鐘內就能實現的體驗。這種需求與滿足之間幾乎零等待的設計，正是即時感的極致展現。',
     transformationOptions: [
       {
         id: 'a',
-        label: '驚喜感',
+        label: '健康感',
         innovationTitle: '盲盒美食外送',
         oneLiner: '告訴我你的口味偏好，讓演算法幫你選今天吃什麼——打開才知道。',
         details: {
@@ -1111,7 +1111,7 @@ export const questions = [
       },
       {
         id: 'c',
-        label: '成就感',
+        label: '激勵感',
         innovationTitle: '美食探索集章計畫',
         oneLiner: '每嘗試一家新餐廳就集一枚章，解鎖城市美食探索家稱號。',
         details: {
