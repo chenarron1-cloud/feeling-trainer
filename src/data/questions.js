@@ -1123,4 +1123,60 @@ export const questions = [
       },
     ],
   },
+  {
+    id: 21,
+    productName: 'Apple Watch 智慧型手錶',
+    icon: '⌚',
+    iconImg: '/product-applewatch.webp',
+    question: 'Apple Watch 智慧型手錶的核心感受是？',
+    options: [
+      { id: 'a', label: '連結感' },
+      { id: 'b', label: '尊榮感' },
+      { id: 'c', label: '炫耀感' },
+    ],
+    correctOptionId: 'a',
+    coreFeeling: '連結感',
+    correctFeedback: '答對了！Apple Watch 最核心的設計是讓你隨時與身體數據、通知和重要的人保持連結，從不錯過任何重要時刻。',
+    wrongFeedback: '再想想！Apple Watch 雖然也有尊榮感，但它最根本的存在意義是讓你「與健康、與世界、與重要的人持續連結」。',
+    fullExplanation:
+      'Apple Watch 的核心設計是「讓你永遠在線、永遠在連結」——心率、血氧、步數讓你與自己的身體連結；通知、電話讓你與重要的人連結；健身競賽讓你與朋友連結。它把手機的連結功能縮小到手腕上，讓連結變得更即時、更貼身，從不需要掏出手機的那一刻起，連結感就升級了。',
+    transformationOptions: [
+      {
+        id: 'a',
+        label: '尊榮感',
+        innovationTitle: '限量工藝錶帶計畫',
+        oneLiner: '每季聯名頂級工藝師，讓你的手錶成為唯一的腕上藝術品。',
+        details: {
+          concept: '推出「工藝限定錶帶」系列，每季與一位頂級皮革工藝師或珠寶設計師合作，限量50條，每條附手工製作證書與工藝師簽名。',
+          usage: '購入者進入專屬 VIP 社群，享有新品優先體驗、錶帶客製化刻字服務，以及年度工藝展覽邀請。',
+          feelingDesign: '連結感 × 尊榮感：讓科技連結的工具，同時成為展現品味與身份的腕上宣言。',
+          copywriting: '連結世界，從一條只屬於你的錶帶開始。',
+        },
+      },
+      {
+        id: 'b',
+        label: '安心感',
+        innovationTitle: '家人守護手錶模式',
+        oneLiner: '偵測到異常心率或跌倒，自動通知你在乎的人。',
+        details: {
+          concept: '強化「緊急通知」功能，設定家庭守護名單後，當偵測到心率異常、跌倒或長時間靜止，自動傳送位置與狀態給家人。',
+          usage: '適合長輩或獨居者配戴，家人可在 APP 看到即時健康狀態，靜默守護無需主動聯繫。',
+          feelingDesign: '連結感 × 安心感：讓科技連結從「收發訊息」升級為「守護生命」，讓愛以最輕的方式持續存在。',
+          copywriting: '他不需要說話，你也知道他平安。',
+        },
+      },
+      {
+        id: 'c',
+        label: '成就感',
+        innovationTitle: '健康里程碑勳章系統',
+        oneLiner: '累積步數、運動時數、睡眠品質，解鎖專屬人生健康成就。',
+        details: {
+          concept: '建立「人生健康里程碑」系統，設定跨年度目標（步行100公里、累積1000分鐘運動、連續30天達標），完成後解鎖實體勳章寄送到家。',
+          usage: '年底生成「我的健康年報」，以視覺化圖表呈現全年健康數據，可分享社群或列印成個人健康紀念冊。',
+          feelingDesign: '連結感 × 成就感：讓每天的身體數據連結，累積成一段值得驕傲的健康旅程。',
+          copywriting: '你每天的每一步，都在創造一個更好的自己。',
+        },
+      },
+    ],
+  },
 ]
