@@ -25,6 +25,31 @@ export default function JudgeModeScreen({ onHome }) {
   const timerRef = useRef(null)
   const scoreRef = useRef(0)
   const advancingRef = useRef(false)
+  const bgmRef = useRef(null)
+
+  // 停止背景音樂
+  const stopBgm = () => {
+    if (bgmRef.current) {
+      bgmRef.current.pause()
+      bgmRef.current.currentTime = 0
+    }
+  }
+
+  // 播放背景音樂
+  const playBgm = () => {
+    if (!bgmRef.current) {
+      bgmRef.current = new Audio('/bgm.m4a')
+      bgmRef.current.loop = true
+      bgmRef.current.volume = 0.5
+    }
+    bgmRef.current.currentTime = 0
+    bgmRef.current.play().catch(() => {})
+  }
+
+  // 離開時停止音樂
+  useEffect(() => {
+    return () => stopBgm()
+  }, [])
 
   const question = queue[currentIndex]
   const isAnswered = selected !== null
@@ -41,6 +66,7 @@ export default function JudgeModeScreen({ onHome }) {
     advancingRef.current = false
     setTimeLeft(TOTAL_TIME)
     setAnimKey((k) => k + 1)
+    playBgm()
     setGamePhase('playing')
   }
 
@@ -50,6 +76,7 @@ export default function JudgeModeScreen({ onHome }) {
       setTimeLeft((t) => {
         if (t <= 1) {
           clearInterval(timerRef.current)
+          stopBgm()
           setGamePhase('finished')
           return 0
         }
@@ -73,6 +100,7 @@ export default function JudgeModeScreen({ onHome }) {
 
       if (newScore >= PASS_SCORE) {
         clearInterval(timerRef.current)
+        stopBgm()
         setTimeout(() => {
           playComplete()
           setGamePhase('finished')
