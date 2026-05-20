@@ -1011,4 +1011,60 @@ export const questions = [
       },
     ],
   },
+  {
+    id: 19,
+    productName: 'iPhone 智慧型手機',
+    icon: '📱',
+    iconImg: '/product-iphone.webp',
+    question: 'iPhone 智慧型手機的核心感受是？',
+    options: [
+      { id: 'a', label: '尊榮感' },
+      { id: 'b', label: '便利感' },
+      { id: 'c', label: '連結感' },
+    ],
+    correctOptionId: 'c',
+    coreFeeling: '連結感',
+    correctFeedback: '答對了！iPhone 最核心的價值是讓人隨時與他人、與世界保持連結，無論是通訊、社群還是資訊。',
+    wrongFeedback: '再想想！iPhone 雖然也很便利、也有尊榮感，但它最根本的存在意義是讓你「與世界保持連結」。',
+    fullExplanation:
+      'iPhone 的誕生從根本上改變了人與人之間的連結方式。從電話、簡訊到社群媒體、視訊通話、即時通訊，它讓每個人隨時隨地都能與家人、朋友、同事和整個世界保持連結。這種「永遠在線、永遠相連」的核心體驗，正是連結感的最終形態。',
+    transformationOptions: [
+      {
+        id: 'a',
+        label: '尊榮感',
+        innovationTitle: '限量工藝 iPhone',
+        oneLiner: '每一台都是編號限定，擁有它就是擁有一件藝術品。',
+        details: {
+          concept: '推出「工藝限定版」iPhone，與頂級工藝師合作，以手工皮革、純金邊框或稀有礦石製作機殼，每批限量100台，附出生證明書。',
+          usage: '購買者進入專屬 VIP 社群，享有蘋果設計團隊優先體驗、新品發布會前排席位與專屬客服管家服務。',
+          feelingDesign: '連結感 × 尊榮感：讓連結世界的工具本身，成為身份與品味的象徵。',
+          copywriting: '與世界連結，從一台只屬於你的 iPhone 開始。',
+        },
+      },
+      {
+        id: 'b',
+        label: '安心感',
+        innovationTitle: '家人守護模式',
+        oneLiner: '一鍵開啟，讓在乎的人知道你平安，讓你知道他們安好。',
+        details: {
+          concept: '推出「家人守護模式」，設定家庭成員後，系統自動在每天固定時間互發安心訊號，若超時未回應則自動通知緊急聯絡人。',
+          usage: '適合長輩獨居、孩子外出、家人出差等情境，不需要主動聯繫，靜默守護讓彼此安心。',
+          feelingDesign: '連結感 × 安心感：把科技連結從「即時通訊」升級為「靜默守護」，讓愛以最低打擾的方式存在。',
+          copywriting: '不需要說話，也能讓彼此知道：我很好。',
+        },
+      },
+      {
+        id: 'c',
+        label: '成就感',
+        innovationTitle: '數位足跡年度回顧',
+        oneLiner: '一整年你用 iPhone 做了什麼？讓數據告訴你今年的故事。',
+        details: {
+          concept: '推出「年度數位回顧」功能，整合通話、照片、APP使用、步數、地點等數據，生成個人化的年度故事影片與成就徽章。',
+          usage: '每年12月自動生成，顯示「你今年拍了1,247張照片」「走過14個城市」「與家人通話382小時」等數據，讓人看見自己這一年的數位足跡。',
+          feelingDesign: '連結感 × 成就感：讓每一次連結都留下痕跡，年底回顧時感受到自己這一年真實活過的重量。',
+          copywriting: '你以為只是在滑手機，其實你在書寫自己的故事。',
+        },
+      },
+    ],
+  },
 ]
