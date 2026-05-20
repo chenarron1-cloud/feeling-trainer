@@ -124,11 +124,8 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
           </div>
 
           {/* Transform Mode */}
-          <button
-            onClick={onStartTransform}
-            className="w-full bg-white rounded-2xl border border-[#E2E8F0] p-5 md:p-6 text-left shadow-sm hover:border-[#2D3E63]/30 hover:shadow-md active:scale-[0.97] transition-all duration-200"
-          >
-            <div className="flex items-center gap-4">
+          <div className="w-full bg-white rounded-2xl border border-[#E2E8F0] p-5 md:p-6 shadow-sm">
+            <div className="flex items-center gap-4 mb-4">
               <div className="w-14 h-14 md:w-16 md:h-16 rounded-2xl overflow-hidden flex-shrink-0">
                 <img src="/transform.webp" alt="感受改造" className="w-full h-full object-cover" />
               </div>
@@ -141,9 +138,30 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
                 </div>
                 <p className="text-xs md:text-sm text-[#667085]">把產品或服務變得更有感</p>
               </div>
-              <span className="text-[#667085] text-xl flex-shrink-0">›</span>
             </div>
-          </button>
+            <button
+              onClick={onStartTransform}
+              className="w-full min-h-[52px] font-bold text-white text-base rounded-xl transition-transform duration-100"
+              style={{
+                background: 'linear-gradient(180deg, #38C0D0 0%, #2F8F9D 55%, #1F7080 100%)',
+                boxShadow: '0 5px 0 #155f67, 0 8px 20px rgba(47,143,157,0.35)',
+              }}
+              onMouseDown={(e) => {
+                e.currentTarget.style.boxShadow = '0 2px 0 #155f67, 0 4px 10px rgba(47,143,157,0.25)'
+                e.currentTarget.style.transform = 'translateY(3px)'
+              }}
+              onMouseUp={(e) => {
+                e.currentTarget.style.boxShadow = '0 5px 0 #155f67, 0 8px 20px rgba(47,143,157,0.35)'
+                e.currentTarget.style.transform = 'translateY(0)'
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.boxShadow = '0 5px 0 #155f67, 0 8px 20px rgba(47,143,157,0.35)'
+                e.currentTarget.style.transform = 'translateY(0)'
+              }}
+            >
+              開始 Go
+            </button>
+          </div>
 
         </div>
       </div>
