@@ -14,8 +14,8 @@ export default function App() {
   const finishJudge = (result) => { setJudgeResult(result); setMode('result'); window.scrollTo(0, 0) }
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#EEF3F7' }}>
-      <div className="max-w-[1040px] mx-auto px-4 sm:px-6 lg:px-10 pb-20">
+    <div className="min-h-screen flex flex-col" style={{ backgroundColor: '#EEF3F7' }}>
+      <div className="flex-1 max-w-[1040px] w-full mx-auto px-4 sm:px-6 lg:px-10 pb-6">
         <div className="animate-fade-in" key={mode}>
           {mode === 'home' && (
             <HomeScreen onStartJudge={startJudge} onStartTransform={startTransform} />
@@ -36,6 +36,9 @@ export default function App() {
           )}
         </div>
       </div>
+      <footer className="w-full text-center py-4 pb-6">
+        <p className="text-xs text-[#9CA3AF] tracking-wide">＠創新先生　陳建銘</p>
+      </footer>
     </div>
   )
 }
