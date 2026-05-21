@@ -146,7 +146,7 @@ export default function JudgeModeScreen({ onHome }) {
             ← 回首頁
           </button>
           <span className="text-xs font-bold text-[#2F8F9D] bg-[#E3F5F3] px-3 py-1.5 rounded-full">
-            感受判斷
+            感受判斷挑戰
           </span>
         </div>
 

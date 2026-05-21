@@ -49,7 +49,7 @@ export default function TransformModeScreen({ onHome }) {
           {backLabel}
         </button>
         <span className="text-xs font-bold text-[#2D3E63] bg-[#EEF3F7] border border-[#E2E8F0] px-3 py-1.5 rounded-full tracking-wide">
-          感受改造
+          自由改造練習
         </span>
       </div>
 
