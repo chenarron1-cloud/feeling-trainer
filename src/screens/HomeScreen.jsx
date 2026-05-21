@@ -51,10 +51,10 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
             需求感受訓練場
           </h1>
           <p className="text-base md:text-lg font-semibold text-[#1F6F78] mt-2 md:mt-3">
-            看懂產品或服務背後真正打動人的感受
+            抓住需求感受，才抓得到真正的創新方向。
           </p>
           <p className="text-sm md:text-base text-[#374151] mt-3 leading-relaxed max-w-xs mx-auto">
-            像玩遊戲一樣，訓練你的觀察力、判斷力與創新力。
+            用遊戲訓練觀察力、判斷力與創新力。
           </p>
         </div>
         <div className="mt-5 md:mt-6 pt-4 border-t border-[#E2E8F0] text-center">
