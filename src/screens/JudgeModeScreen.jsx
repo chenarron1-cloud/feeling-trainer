@@ -251,6 +251,49 @@ export default function JudgeModeScreen({ onHome }) {
             </button>
           </div>
         </div>
+
+        {/* CTA Banner */}
+        <div className="bg-[#2D3E63] rounded-2xl px-6 py-6 md:px-8 md:py-7 mt-4 text-center shadow-sm">
+          <p className="text-base md:text-lg font-bold text-white mb-1">想把感受變成創新解法嗎？</p>
+          <p className="text-xs md:text-sm text-white/70 leading-relaxed mb-1">
+            你已經完成需求感受判斷挑戰。
+          </p>
+          <p className="text-xs md:text-sm text-white/70 leading-relaxed mb-4">
+            接下來可以學會把這些感受變成<br />
+            <span className="text-white/90 font-semibold">產品亮點、銷售話術與創新方案</span>
+          </p>
+          <p className="text-xs md:text-sm text-white/80 mb-4">
+            歡迎了解創新先生的
+            <a
+              href="https://www.innovators.tw/blog/problem-analysis-solving-innovation"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#6DD8E4] font-bold underline underline-offset-2 ml-1 hover:text-white transition-colors"
+            >
+              「靈感製造機法則」
+            </a>
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+            <a
+              href="mailto:chen.arron1@gmail.com"
+              className="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white text-xs font-semibold px-4 py-2.5 rounded-xl transition-colors border border-white/20"
+            >
+              <span>✉</span>
+              <span>chen.arron1@gmail.com</span>
+            </a>
+            <a
+              href="https://www.innovators.tw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-[#2F8F9D] hover:bg-[#1F6F78] text-white text-xs font-semibold px-4 py-2.5 rounded-xl transition-colors shadow-sm"
+            >
+              <span>🌐</span>
+              <span>創新先生管理顧問官網</span>
+            </a>
+          </div>
+          <p className="text-xs text-white/40 mt-4">講師｜創新先生 陳建銘</p>
+        </div>
+
       </div>
     )
   }
