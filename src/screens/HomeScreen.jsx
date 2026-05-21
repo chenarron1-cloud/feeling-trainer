@@ -167,6 +167,37 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
 
         </div>
       </div>
+
+      {/* CTA Banner */}
+      <div className="max-w-2xl lg:max-w-4xl mx-auto mt-5 md:mt-6">
+        <div className="bg-[#2D3E63] rounded-2xl px-6 py-6 md:px-8 md:py-7 text-center shadow-sm">
+          <p className="text-sm md:text-base text-white/80 leading-relaxed mb-1">
+            想把需求感受用在產品創新、銷售提案與顧客洞察嗎？
+          </p>
+          <p className="text-base md:text-lg font-bold text-white mb-5">
+            歡迎參加創新先生《創新思維解決問題》實戰課
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5">
+            <a
+              href="mailto:chen.arron1@gmail.com"
+              className="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white text-sm font-semibold px-4 py-2.5 rounded-xl transition-colors border border-white/20"
+            >
+              <span>✉</span>
+              <span>chen.arron1@gmail.com</span>
+            </a>
+            <a
+              href="https://www.innovators.tw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-[#2F8F9D] hover:bg-[#1F6F78] text-white text-sm font-semibold px-4 py-2.5 rounded-xl transition-colors shadow-sm"
+            >
+              <span>🌐</span>
+              <span>創新先生管理顧問官網</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
     </div>
   )
 }
