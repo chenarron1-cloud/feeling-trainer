@@ -130,12 +130,9 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-1">
-                  <p className="font-bold text-[#1F2A37] text-base md:text-lg">感受改造</p>
-                  <span className="text-xs bg-[#EEF3F7] text-[#2D3E63] font-semibold px-2 py-0.5 rounded-full border border-[#E2E8F0]">
-                    自由探索
-                  </span>
+                  <p className="font-bold text-[#1F2A37] text-base md:text-lg">自由改造練習</p>
                 </div>
-                <p className="text-xs md:text-sm text-[#667085]">把產品或服務變得更有感</p>
+                <p className="text-xs md:text-sm text-[#667085]">把需求感受，變成產品與服務的新亮點。</p>
               </div>
             </div>
             <button
