@@ -175,6 +175,56 @@ export default function TransformModeScreen({ onHome }) {
                 </button>
               ))}
             </div>
+
+            {/* CTA Banner */}
+            <div className="bg-[#2D3E63] rounded-2xl px-6 py-6 md:px-8 md:py-7 mt-5 text-center shadow-sm">
+              <p className="text-base md:text-lg font-bold text-white mb-3">想繼續訓練你的創新腦嗎？</p>
+              <p className="text-xs md:text-sm text-white/70 leading-relaxed mb-4">
+                你剛才完成的「自由改造練習」，不只是看解析，而是在練習如何從需求感受出發，找到<span className="text-white/90 font-semibold">產品亮點、銷售切入點、服務體驗與創新解法</span>。
+              </p>
+              <p className="text-xs md:text-sm text-white/80 mb-5">
+                想學更多創新思維、需求洞察與靈感製造機法則，歡迎追蹤創新先生。
+              </p>
+              <div className="flex flex-col gap-2.5">
+                <a
+                  href="https://www.facebook.com/arron.innovation"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 bg-white/10 hover:bg-white/20 text-white text-xs font-semibold px-4 py-3 rounded-xl transition-colors border border-white/20 text-left"
+                >
+                  <span className="text-base">👍</span>
+                  <div>
+                    <p className="font-bold">追蹤 FB</p>
+                    <p className="text-white/60 font-normal">看更多創新案例</p>
+                  </div>
+                </a>
+                <a
+                  href="https://www.youtube.com/watch?v=UbD6VIIMSZ8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 bg-white/10 hover:bg-white/20 text-white text-xs font-semibold px-4 py-3 rounded-xl transition-colors border border-white/20 text-left"
+                >
+                  <span className="text-base">▶️</span>
+                  <div>
+                    <p className="font-bold">觀看 YouTube</p>
+                    <p className="text-white/60 font-normal">學創新思維</p>
+                  </div>
+                </a>
+                <a
+                  href="https://www.innovators.tw"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 bg-[#2F8F9D] hover:bg-[#1F6F78] text-white text-xs font-semibold px-4 py-3 rounded-xl transition-colors shadow-sm text-left"
+                >
+                  <span className="text-base">🌐</span>
+                  <div>
+                    <p className="font-bold">了解課程｜企業內訓合作</p>
+                    <p className="text-white/70 font-normal">www.innovators.tw</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
           </div>
         )}
 
