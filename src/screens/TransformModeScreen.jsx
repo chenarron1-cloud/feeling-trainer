@@ -109,6 +109,11 @@ export default function TransformModeScreen({ onHome }) {
                 <span>·</span>
                 <span>{selectedQuestion.coreFeeling}</span>
               </div>
+              {selectedQuestion.coreReason && (
+                <p className="text-xs md:text-sm text-[#667085] mt-3 leading-relaxed max-w-xs mx-auto">
+                  {selectedQuestion.coreReason}
+                </p>
+              )}
             </div>
 
             <p className="text-sm md:text-base font-bold text-[#1F2A37] mb-3 px-1">加入哪種感受？</p>

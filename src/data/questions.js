@@ -12,6 +12,7 @@ export const questions = [
     ],
     correctOptionId: 'b',
     coreFeeling: '便利感',
+    coreReason: '便利貼的核心感受是便利感，因為它讓人隨手記錄、隨處提醒，不需要任何準備，撕一張貼上去就完成了。',
     correctFeedback: '答對了！便利貼讓人快速記錄、隨手提醒，所以核心感受是便利感。',
     wrongFeedback: '差一點！你選的感受可能是延伸感受，但便利貼最核心是快速記錄與提醒。',
     fullExplanation:
@@ -69,6 +70,7 @@ export const questions = [
     ],
     correctOptionId: 'b',
     coreFeeling: '趣味感',
+    coreReason: '會跑的鬧鐘的核心感受是趣味感，因為它把無聊的起床時間變成一場追逐遊戲，讓人忍不住笑著爬起來。',
     correctFeedback: '答對了！會跑的鬧鐘把起床這件事變成有趣又帶點挑戰的過程。',
     wrongFeedback: '差一點！這個鬧鐘最核心的設計是讓起床變得好玩、有挑戰性，而不是高端或神秘。',
     fullExplanation:
@@ -126,6 +128,7 @@ export const questions = [
     ],
     correctOptionId: 'c',
     coreFeeling: '靈活感',
+    coreReason: '伸縮摺疊電蚊拍的核心感受是靈活感，因為它讓你不需要搬椅子、不需要移動，隨手一伸就能打到任何角落的蚊子。',
     correctFeedback: '答對了！伸縮設計讓你不用搬椅子、不用爬高，隨手一伸就能打到任何角落的蚊子，核心就是靈活感。',
     wrongFeedback: '再想想！這支電蚊拍最核心的設計，是讓你的動作變得靈活——隨時伸長、隨時縮短，打遍每一個角落。',
     fullExplanation:
@@ -182,6 +185,7 @@ export const questions = [
     ],
     correctOptionId: 'b',
     coreFeeling: '掌控感',
+    coreReason: '外送 APP 即時位置的核心感受是掌控感，因為它讓你隨時知道餐點在哪裡、還要等多久，消除了「不知道等多久」的焦慮。',
     correctFeedback: '答對了！知道餐點在哪裡、還要等多久，讓使用者掌握等待的節奏。',
     wrongFeedback: '差一點！這個功能最核心是讓使用者不會「無止盡等待」，有掌握感。',
     fullExplanation:
@@ -238,6 +242,7 @@ export const questions = [
     ],
     correctOptionId: 'c',
     coreFeeling: '安心感',
+    coreReason: '銀行 APP 交易通知的核心感受是安心感，因為每一筆消費都即時推播，讓你確認交易正常、也能馬上發現異常扣款。',
     correctFeedback: '答對了！交易通知讓使用者確認交易成功，也能即時發現異常。',
     wrongFeedback: '差一點！通知的核心是讓你「知道發生了什麼」，帶來的是安心感。',
     fullExplanation:
@@ -294,6 +299,7 @@ export const questions = [
     ],
     correctOptionId: 'c',
     coreFeeling: '成就感',
+    coreReason: '課程進度條的核心感受是成就感，因為它讓你看見自己已經走了多遠，每往前一格都帶來繼續前進的動力。',
     correctFeedback: '答對了！進度條讓學員看到自己已完成多少，產生持續前進的動力。',
     wrongFeedback: '差一點！進度條最核心是讓你看見「你做到了多少」，帶來成就感。',
     fullExplanation:
@@ -351,6 +357,7 @@ export const questions = [
     ],
     correctOptionId: 'a',
     coreFeeling: '主動感',
+    coreReason: '鳥博士教育桌遊的核心感受是主動感，因為它讓玩家自己去查找、比對、配對鳥類資訊，而不是被動聽人講解。',
     correctFeedback: '答對了！鳥博士透過卡牌機制讓玩家主動探索、比對、配對，核心就是主動感。',
     wrongFeedback: '再想想！鳥博士最獨特的地方是讓玩家主動去尋找答案，而不是被動接受知識。',
     fullExplanation:
@@ -408,6 +415,7 @@ export const questions = [
     ],
     correctOptionId: 'b',
     coreFeeling: '體驗感',
+    coreReason: '「創新的秘密」卡牌的核心感受是體驗感，因為它讓人實際動手翻牌、討論，親身經歷創新思考的過程，而不只是閱讀理論。',
     correctFeedback: '答對了！創新的秘密透過卡牌讓使用者親身操作、體驗創新思維的過程，核心就是體驗感。',
     wrongFeedback: '再想想！創新的秘密最獨特的地方是讓人實際動手操作，而不只是閱讀理論。',
     fullExplanation:
@@ -464,6 +472,7 @@ export const questions = [
     ],
     correctOptionId: 'a',
     coreFeeling: '當下感',
+    coreReason: '拍立得相機的核心感受是當下感，因為它把這一刻凝固成一張真實的實體照片，讓你把「現在」握在手上。',
     correctFeedback: '答對了！拍立得把每一個瞬間變成可以握在手上的實體照片，它捕捉的不只是影像，而是那個無法重來的當下，核心就是當下感。',
     wrongFeedback: '再想想！拍立得跟手機拍照最大的差別，不只是速度快，而是它把那個「現在」永遠凝固成一張真實的實體照片——那就是當下感。',
     fullExplanation:
@@ -520,6 +529,7 @@ export const questions = [
     ],
     correctOptionId: 'c',
     coreFeeling: '隨心感',
+    coreReason: '迴轉壽司的核心感受是隨心感，因為壽司轉到面前的瞬間，你完全跟著直覺決定要不要拿，想拿就拿、不想要就讓它轉走。',
     correctFeedback: '答對了！迴轉壽司讓你看到想吃的就拿、不想要的讓它轉過去，完全跟著直覺和心情用餐，核心就是隨心感。',
     wrongFeedback: '再想想！迴轉壽司最特別的地方，是讓你隨著壽司轉過來的瞬間做決定，想拿就拿、想放棄就放棄，那種跟著感覺走的體驗，就是隨心感。',
     fullExplanation:
@@ -576,6 +586,7 @@ export const questions = [
     ],
     correctOptionId: 'b',
     coreFeeling: '療癒感',
+    coreReason: '巨型黃色小鴨的核心感受是療癒感，因為它喚起每個人的童年記憶，讓大人在冷硬的城市中找回一種純粹、無壓力的快樂。',
     correctFeedback: '答對了！巨型黃色小鴨喚起童年記憶，讓大人在城市中找回一種純粹、無壓力的快樂，核心就是療癒感。',
     wrongFeedback: '再想想！黃色小鴨雖然很大、很特別，但它最打動人的地方是讓你會心一笑、放鬆下來的那種感覺。',
     fullExplanation:
@@ -632,6 +643,7 @@ export const questions = [
     ],
     correctOptionId: 'a',
     coreFeeling: '挑戰感',
+    coreReason: '魔術方塊的核心感受是挑戰感，因為每個人拿到它的第一反應都是想把它轉回去，那種「我一定要破解它」的衝動就是挑戰感。',
     correctFeedback: '答對了！魔術方塊的核心就是讓人想要征服它，一層一層解開的過程充滿挑戰感。',
     wrongFeedback: '再想想！魔術方塊最讓人著迷的地方，是那種「我一定要把它轉回來」的衝動。',
     fullExplanation:
@@ -688,6 +700,7 @@ export const questions = [
     ],
     correctOptionId: 'c',
     coreFeeling: '探索感',
+    coreReason: '填字遊戲的核心感受是探索感，因為它讓你在線索與格子之間不斷推敲、嘗試，在未知中一步步找到答案。',
     correctFeedback: '答對了！填字遊戲讓人在格子之間不斷嘗試、推敲、發現，核心就是探索感。',
     wrongFeedback: '再想想！填字遊戲最吸引人的不是贏別人，而是在線索與格子之間慢慢找到答案的過程。',
     fullExplanation:
@@ -744,6 +757,7 @@ export const questions = [
     ],
     correctOptionId: 'b',
     coreFeeling: '清涼感',
+    coreReason: '可口可樂的核心感受是清涼感，因為從開罐聲、氣泡聲到第一口喝下去的瞬間，每一個細節都在強化那個標誌性的清涼體驗。',
     correctFeedback: '答對了！可口可樂最核心的體驗就是那一口冰涼透心的感受，清涼感是它百年不變的核心。',
     wrongFeedback: '再想想！可口可樂的廣告、顏色、聲音設計都指向同一個感受——那一口打開罐子喝下去的瞬間。',
     fullExplanation:
@@ -800,6 +814,7 @@ export const questions = [
     ],
     correctOptionId: 'a',
     coreFeeling: '流暢感',
+    coreReason: '免削鉛筆的核心感受是流暢感，因為它讓書寫永不中斷，不再被「去削鉛筆」這件事打斷，從頭到尾一氣呵成。',
     correctFeedback: '答對了！免削鉛筆讓書寫永不中斷，筆尖隨時保持最佳狀態，一氣呵成的書寫節奏，核心就是流暢感。',
     wrongFeedback: '再想想！免削鉛筆最核心的設計，是讓你的書寫永遠不被「去削鉛筆」這件事打斷，那種一路寫下去不停頓的感受，就是流暢感。',
     fullExplanation:
@@ -856,6 +871,7 @@ export const questions = [
     ],
     correctOptionId: 'c',
     coreFeeling: '省力感',
+    coreReason: '好神拖拖把的核心感受是省力感，因為它讓人不用彎腰、不用徒手擰水，一腳踩下就完成脫水，把清潔從費力變輕鬆。',
     correctFeedback: '答對了！好神拖最核心的設計是讓人不用彎腰、不用徒手擰水，一腳踩下就完成脫水，核心就是省力感。',
     wrongFeedback: '再想想！好神拖最吸引人的地方，是讓你做同樣的事卻不需要花那麼多力氣——特別是那個免手擰的脫水設計。',
     fullExplanation:
@@ -912,6 +928,7 @@ export const questions = [
     ],
     correctOptionId: 'b',
     coreFeeling: '儀式感',
+    coreReason: '星巴克咖啡的核心感受是儀式感，因為從點餐、店員寫上你的名字到取餐，整套流程把喝咖啡這件事變成了「給自己的一個儀式」。',
     correctFeedback: '答對了！星巴克從點餐、寫名字到取餐，把喝咖啡這件事變成了一套完整的儀式，核心就是儀式感。',
     wrongFeedback: '再想想！星巴克最特別的地方不只是咖啡本身，而是它讓喝咖啡這個動作有了一種「給自己的儀式」的感覺。',
     fullExplanation:
@@ -968,6 +985,7 @@ export const questions = [
     ],
     correctOptionId: 'a',
     coreFeeling: '熟悉感',
+    coreReason: '麥當勞的核心感受是熟悉感，因為不管在哪個國家走進去，都能吃到一樣的大麥克，那種「我知道會得到什麼」的確定感讓人安心。',
     correctFeedback: '答對了！不管在台灣、美國還是日本，走進麥當勞都能吃到一樣的大麥克——那種「我知道會得到什麼」的確定感，就是熟悉感。',
     wrongFeedback: '再想想！麥當勞真正讓人安心的地方，是你永遠知道走進去會得到什麼，那種全球一致的確定感，就是熟悉感。',
     fullExplanation:
@@ -1024,6 +1042,7 @@ export const questions = [
     ],
     correctOptionId: 'c',
     coreFeeling: '連結感',
+    coreReason: 'iPhone 智慧型手機的核心感受是連結感，因為它讓每個人隨時與家人、朋友、世界保持連結，從通話到社群，永遠在線。',
     correctFeedback: '答對了！iPhone 最核心的價值是讓人隨時與他人、與世界保持連結，無論是通訊、社群還是資訊。',
     wrongFeedback: '再想想！iPhone 最根本的存在意義是讓你「與世界保持連結」，而不只是懷舊或順手使用。',
     fullExplanation:
@@ -1080,6 +1099,7 @@ export const questions = [
     ],
     correctOptionId: 'b',
     coreFeeling: '即時感',
+    coreReason: 'foodpanda 外送的核心感受是即時感，因為它讓「現在想吃」這個念頭在 30 分鐘內就能變成現實，需求與滿足之間幾乎沒有等待。',
     correctFeedback: '答對了！foodpanda 最核心的價值是「想吃什麼，馬上就能送到你面前」，即時滿足欲望的感受是它的靈魂。',
     wrongFeedback: '再想想！foodpanda 最核心的設計是那種「現在想吃、現在就能有」的即時感，而不是健康或激勵。',
     fullExplanation:
@@ -1136,6 +1156,7 @@ export const questions = [
     ],
     correctOptionId: 'a',
     coreFeeling: '健康感',
+    coreReason: 'Apple Watch 智慧型手錶的核心感受是健康感，因為它把心率、血氧、步數、睡眠全帶到手腕上，讓你對自己的身體隨時了然於胸。',
     correctFeedback: '答對了！Apple Watch 把健康監測帶到手腕上，讓你隨時掌握心率、血氧、步數，那種對自身健康了然於胸的感受，核心就是健康感。',
     wrongFeedback: '再想想！Apple Watch 雖然也時尚，但它最根本的設計核心是讓你對自己的身體狀態隨時了然——心率、血氧、睡眠全都在手腕上，那就是健康感。',
     fullExplanation:
@@ -1192,6 +1213,7 @@ export const questions = [
     ],
     correctOptionId: 'c',
     coreFeeling: '方向感',
+    coreReason: 'Google Maps 導航的核心感受是方向感，因為它讓你在任何陌生地方都知道自己在哪、要往哪走，永遠不用擔心迷路。',
     correctFeedback: '答對了！Google Maps 最核心的價值是讓你在任何陌生地方都知道自己在哪、要往哪走，消除迷失的焦慮，給你清楚的方向感。',
     wrongFeedback: '再想想！Google Maps 最根本的存在意義是讓你永遠不會迷路，給你一個清楚的方向，這正是方向感。',
     fullExplanation:
@@ -1248,6 +1270,7 @@ export const questions = [
     ],
     correctOptionId: 'a',
     coreFeeling: '安心感',
+    coreReason: 'Uber 叫車服務的核心感受是安心感，因為你知道司機是誰、車牌幾號、幾分鐘到、費用多少，把搭車的每一個不確定感都消除了。',
     correctFeedback: '答對了！Uber 讓你知道司機是誰、車牌幾號、幾分鐘到、費用多少，把搭車的不確定感全部消除，核心就是安心感。',
     wrongFeedback: '再想想！Uber 最大的突破是讓搭車變得透明——你知道司機資訊、車輛位置、預估費用，這些設計都指向同一個感受：安心。',
     fullExplanation:
@@ -1304,6 +1327,7 @@ export const questions = [
     ],
     correctOptionId: 'b',
     coreFeeling: '效率感',
+    coreReason: 'AI 簡報工具的核心感受是效率感，因為它把原本需要幾小時的排版工作壓縮到幾分鐘，讓你清楚感受到「事半功倍」的力量。',
     correctFeedback: '答對了！AI 簡報工具把原本需要幾小時的排版工作壓縮到幾分鐘，核心就是讓人感受到「事半功倍」的效率感。',
     wrongFeedback: '再想想！AI 簡報工具最打動人的地方，是讓你用極短的時間完成原本費時費力的工作，這正是效率感。',
     fullExplanation:
@@ -1360,6 +1384,7 @@ export const questions = [
     ],
     correctOptionId: 'a',
     coreFeeling: '自由感',
+    coreReason: 'AirPods 無線耳機的核心感受是自由感，因為它拿掉了那條惱人的耳機線，讓你跑步、做家事、隨意移動，完全不受束縛。',
     correctFeedback: '答對了！AirPods 把耳機線這個最後的束縛拿掉，讓你可以隨意移動、不受纏繞，核心就是自由感。',
     wrongFeedback: '再想想！AirPods 最革命性的設計就是「去掉那條線」，那條線消失的瞬間，你感受到的正是自由感。',
     fullExplanation:
@@ -1416,6 +1441,7 @@ export const questions = [
     ],
     correctOptionId: 'c',
     coreFeeling: '找回感',
+    coreReason: 'AirTag 防丟追蹤器的核心感受是找回感，因為它解決了「東西不見了就找不回來」的焦慮，讓失而復得成為可能。',
     correctFeedback: '答對了！AirTag 解決的是「東西不見了、找不回來」的焦慮，讓你能夠追蹤並找回重要物品，核心就是找回感。',
     wrongFeedback: '再想想！AirTag 的存在意義只有一個：當你的東西不見了，它能幫你找回來。這種「失而復得」的核心體驗，就是找回感。',
     fullExplanation:
@@ -1472,6 +1498,7 @@ export const questions = [
     ],
     correctOptionId: 'a',
     coreFeeling: '科技感',
+    coreReason: 'Dyson 無線吸塵器的核心感受是科技感，因為拿起它的瞬間，你感覺到的不是一台吸塵器，而是一件充滿工程美學的高科技產品。',
     correctFeedback: '答對了！Dyson 用數位馬達、透明集塵桶與精密工程設計，讓吸塵器從家電變成科技產品，核心就是科技感。',
     wrongFeedback: '再想想！Dyson 最吸引人的地方，是它讓你感覺拿到的是一件高科技設備，而不只是一台吸塵器。',
     fullExplanation:
@@ -1528,6 +1555,7 @@ export const questions = [
     ],
     correctOptionId: 'b',
     coreFeeling: '自主感',
+    coreReason: '自助洗衣店的核心感受是自主感，因為你決定什麼時候來、用哪台機器、設定哪個程式，整個洗衣流程完全由自己掌控。',
     correctFeedback: '答對了！自助洗衣店讓你完全按照自己的時間、自己的步調完成洗衣，不依賴他人，核心就是自主感。',
     wrongFeedback: '再想想！自助洗衣店最核心的體驗，是「我自己決定什麼時候洗、洗多久、用哪台機器」——這種完全掌握自己流程的感受，就是自主感。',
     fullExplanation:
@@ -1584,6 +1612,7 @@ export const questions = [
     ],
     correctOptionId: 'c',
     coreFeeling: '解放感',
+    coreReason: '掃地機器人的核心感受是解放感，因為你根本不需要動手，出門前設定排程，回家就是乾淨的地板，讓你從家務中徹底解放。',
     correctFeedback: '答對了！掃地機器人讓你從「必須自己打掃」這件事中解放出來，核心就是解放感。',
     wrongFeedback: '再想想！掃地機器人最核心的價值，不只是把地板掃乾淨，而是讓你完全不需要親自動手——那種從家務中解脫的感受，就是解放感。',
     fullExplanation:
@@ -1640,6 +1669,7 @@ export const questions = [
     ],
     correctOptionId: 'a',
     coreFeeling: '守護感',
+    coreReason: '智慧門鎖的核心感受是守護感，因為不管人在哪裡，你都能確認門是否上鎖、誰進出過，家隨時都被主動守護著。',
     correctFeedback: '答對了！智慧門鎖讓你不管人在哪裡，家都在被主動守護著，隨時確認鎖門狀態、掌握進出記錄，核心就是守護感。',
     wrongFeedback: '再想想！智慧門鎖雖然也很方便、也有科技感，但人們安裝它最根本的原因，是那種「家被主動守護著、有人在把關」的踏實感——那就是守護感。',
     fullExplanation:
