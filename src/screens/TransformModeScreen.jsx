@@ -213,7 +213,7 @@ export default function TransformModeScreen({ onHome }) {
               onClick={() => setShowDetails((v) => !v)}
               className="w-full min-h-[52px] bg-white rounded-2xl border border-[#E2E8F0] shadow-sm text-center text-[#2F8F9D] font-bold text-sm md:text-base hover:bg-[#F6F9FB] active:scale-[0.98] transition-all duration-150 mb-4"
             >
-              {showDetails ? '▲ 收起設計細節' : '▼ 看更多設計'}
+              {showDetails ? '▲ 收起設計細節' : '▼ 看設計細節'}
             </button>
 
             {/* Details */}
@@ -226,7 +226,7 @@ export default function TransformModeScreen({ onHome }) {
                 <DetailRow label="感受設計" text={selectedTransform.details.feelingDesign} />
                 <div className="bg-[#F6F9FB] border border-[#E2E8F0] rounded-2xl p-4 md:p-5">
                   <p className="text-xs md:text-sm font-bold text-[#2F8F9D] uppercase tracking-widest mb-2">
-                    文案亮點
+                    創新物語
                   </p>
                   <p className="text-base md:text-lg font-bold text-[#2D3E63] italic leading-relaxed">
                     「{selectedTransform.details.copywriting}」
