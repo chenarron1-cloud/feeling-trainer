@@ -93,12 +93,9 @@ export default function HomeScreen({ onStartJudge, onStartTransform }) {
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-1">
-                  <p className="font-bold text-[#1F2A37] text-base md:text-lg">感受判斷</p>
-                  <span className="text-xs bg-[#E3F5F3] text-[#2F8F9D] font-semibold px-2 py-0.5 rounded-full">
-                    30秒10關
-                  </span>
+                  <p className="font-bold text-[#1F2A37] text-base md:text-lg">感受判斷挑戰</p>
                 </div>
-                <p className="text-xs md:text-sm text-[#667085]">挑戰30秒內答對10題才算過關</p>
+                <p className="text-xs md:text-sm text-[#667085]">30 秒 10 關，答對 10 題才算過關！</p>
               </div>
             </div>
             <button
