@@ -58,6 +58,47 @@ export default function TransformModeScreen({ onHome }) {
         {/* ── LIST ── */}
         {phase === 'list' && (
           <div>
+            {/* 流程說明橫幅 */}
+            <div className="bg-white border border-[#E2E8F0] rounded-2xl px-4 py-4 md:px-6 md:py-5 mb-5 md:mb-6 shadow-sm">
+              <p className="text-xs font-bold text-[#2F8F9D] uppercase tracking-widest mb-3 text-center">
+                感受解析與改造
+              </p>
+              <div className="flex items-start justify-between gap-1">
+                {/* Step 1 */}
+                <div className="flex-1 flex flex-col items-center text-center">
+                  <div className="w-8 h-8 md:w-9 md:h-9 rounded-full bg-[#E3F5F3] flex items-center justify-center mb-2 flex-shrink-0">
+                    <span className="text-sm md:text-base font-black text-[#2F8F9D]">1</span>
+                  </div>
+                  <p className="text-xs md:text-sm font-bold text-[#1F2A37] leading-snug">看懂感受</p>
+                  <p className="text-[10px] md:text-xs text-[#9CA3AF] mt-0.5 leading-snug">找出產品<br className="hidden sm:block" />核心感受</p>
+                </div>
+
+                {/* Arrow */}
+                <div className="pt-3 md:pt-4 text-[#D1D5DB] text-base md:text-lg flex-shrink-0">›</div>
+
+                {/* Step 2 */}
+                <div className="flex-1 flex flex-col items-center text-center">
+                  <div className="w-8 h-8 md:w-9 md:h-9 rounded-full bg-[#E3F5F3] flex items-center justify-center mb-2 flex-shrink-0">
+                    <span className="text-sm md:text-base font-black text-[#2F8F9D]">2</span>
+                  </div>
+                  <p className="text-xs md:text-sm font-bold text-[#1F2A37] leading-snug">加入感受</p>
+                  <p className="text-[10px] md:text-xs text-[#9CA3AF] mt-0.5 leading-snug">選一種新的<br className="hidden sm:block" />感受加進去</p>
+                </div>
+
+                {/* Arrow */}
+                <div className="pt-3 md:pt-4 text-[#D1D5DB] text-base md:text-lg flex-shrink-0">›</div>
+
+                {/* Step 3 */}
+                <div className="flex-1 flex flex-col items-center text-center">
+                  <div className="w-8 h-8 md:w-9 md:h-9 rounded-full bg-[#2F8F9D] flex items-center justify-center mb-2 flex-shrink-0">
+                    <span className="text-sm md:text-base font-black text-white">3</span>
+                  </div>
+                  <p className="text-xs md:text-sm font-bold text-[#1F2A37] leading-snug">創造新體驗</p>
+                  <p className="text-[10px] md:text-xs text-[#9CA3AF] mt-0.5 leading-snug">看見創新<br className="hidden sm:block" />設計方向</p>
+                </div>
+              </div>
+            </div>
+
             <div className="mb-5 md:mb-6">
               <h2 className="text-xl md:text-2xl font-bold text-[#1F2A37]">選一個產品</h2>
               <p className="text-xs md:text-sm text-[#667085] mt-1">
